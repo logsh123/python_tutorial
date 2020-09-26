@@ -94,7 +94,7 @@ def execute():
     #     write = csv.writer(csv_file,delimiter=';')
     #     write.writerow(header)
     #     for item in all_data:
-    #         item[-1]= item[-1][0:-2:] #тут мешается \n
+    #         item[-1]= item[-1][0:-1:] #тут мешается \n
     #         write.writerow([item[0],item[1], item[2], item[3],item[-1]])
 
 execute()
